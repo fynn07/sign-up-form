@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border-radius: 20px;
+    display: flex;
+
+    margin: 5rem;
+    height: 80vh;
+    box-shadow: 0 0 15px 2px #DDD;
+}
+.container .left-side{
+    border: 1px solid black;
+    flex-basis: 40%;
+}
+.container .right-side{
+    border: 1px solid red;
+    flex: 1;
+}
