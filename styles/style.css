@@ -46,3 +46,16 @@ body{
     flex: 1;
     background-color: #1d2b3a;
 }
+
+.container .right-side .forms-container .form-header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 13vh;
+    margin-left: 7vw;
+
+}
+.container .right-side .forms-container .form-header-container > h2{
+    color: white;
+    font-size: 2.7rem;
+}
