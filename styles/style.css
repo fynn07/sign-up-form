@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
-    background-color: #e1c700;
+    background-color: rgb(253, 190, 46);
 }
 
 .left-side .company-name > h1{
@@ -47,15 +47,62 @@ body{
     background-color: #1d2b3a;
 }
 
+.container .right-side .forms-container{
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
 .container .right-side .forms-container .form-header-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 13vh;
-    margin-left: 7vw;
-
+    margin-bottom: 5vh;
 }
+
+.container .right-side .forms-container .form-layer-container{
+    display: flex;
+    gap: 10vw;
+    margin-bottom: 6vh;
+}
+.container .right-side .forms-container .form-layer-container *{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.601);
+    font-size: 1.1rem;
+    gap: 1vh;
+}
+
+.container .right-side .forms-container .form-layer-container > div > input{
+    color: black;
+    background-color: white;
+    width: 12vw;
+    height: 2.5vh;
+    border-radius: 6px;
+}
+
 .container .right-side .forms-container .form-header-container > h2{
     color: white;
     font-size: 2.7rem;
 }
+.container .right-side .forms-container .button-container{
+    margin-top: 7vh;
+}
+.container .right-side .forms-container .button-container button{
+    padding: 1.26vh 2.88vw;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(253, 190, 46);
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+
+.container .right-side .forms-container .button-container p{
+    color: rgba(255, 255, 255, 0.601);
+}
+
+.container .right-side .forms-container .button-container span{
+    color: rgb(253, 190, 46);
+}
+
